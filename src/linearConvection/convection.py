@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 import time, sys
 
 ### Numerical variables
-nx = 41     # number of discrete points
+nx = 81     # number of discrete points
 dx = 2.0 / (nx - 1) # cell width (distance between points)
 nt = 25     # number of timesteps
 dt = 0.025  # Zeitschrittweite
